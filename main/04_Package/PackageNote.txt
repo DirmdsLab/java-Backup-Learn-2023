@@ -1,0 +1,40 @@
+package java
+compile dan run di induk directory jadi karena saya pakai angka 01 02 03 etc di awalnya
+jadi package tidak bisa di gunakan
+sistem package gini (versi simple)
+Tree dari directory
+-LEARN
+   |
+   |-out
+   |  |--com
+   |      |--javacode
+   |            |--Main.class
+   |-src
+      |--com.javacode
+              |--Main.java
+
+menjalakan harus di directory "LEARN"
+contoh program
+==========
+
+package com.javacode; // tokoh utama
+
+public class Main{
+    public static void main(String[] args){
+        System.out.println("Turuuuuu");
+    }
+}
+
+==========
+
+jadi cara compile
+
+"javac src/com.javacode/Main.java -d out"
+
+dan cara run
+
+"java -cp out com.javacode.Main"
+
+
+> agak ribet tapi ngak ngaruh
+> pada akhirnya di bantai oleh IDE ^_^
